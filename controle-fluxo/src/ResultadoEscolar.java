@@ -1,19 +1,10 @@
 public class ResultadoEscolar {
     public static void main(String[] args) {
-        int nota = 6;
+// Criando objetos da classe Aluno e Disciplina
+        int nota = 3;
 
-<<<<<<< HEAD
-        if (nota >= 7)
-            System.out.println("Aprovado!");
-        else if (nota >= 5 && nota < 7)
-            System.out.println("Recuperação");
-        else
-            System.out.println("Reprovado!");
-=======
-        if(nota >= 7)
-        System.out.println( "Aprovado!");
-        else
-        System.out.println( "Reprovado!");
->>>>>>> parent of 17b79a7 (Condiçao encadeada)
+        String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota< 7 ?  "Recuperação" : "Reprovado";
+
+        System.out.println(resultado);
     }
 }
